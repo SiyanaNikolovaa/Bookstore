@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+    color:black;
+}
+
+.faq {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(rgb(118, 205, 211));
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .faq > h1, h2, .information {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .information {
+    background: white;
+  }
+  
+  .information > h4, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+
+  .logo img {
+    width: 150px;;
+    height: 150px;;
+    border-radius: 50%;
+}
+
+.navbar {
+    padding:25px;
+    margin-top: 25px;
+}

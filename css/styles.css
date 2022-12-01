@@ -1,0 +1,339 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    color: black;
+}
+
+.logo img {
+    width: 150px;
+    ;
+    height: 150px;
+    ;
+    border-radius: 50%;
+}
+
+.navbar {
+    padding: 25px;
+    margin-top: 25px;
+}
+
+#home span {
+    color: coral;
+}
+
+#home {
+    background-image: url("https://f.hubspotusercontent30.net/hubfs/5191137/blog/Blog-10-essential-reads-to-improve-reading-comprehension.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 25px;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+}
+
+#home button {
+    cursor: pointer;
+    color: bisque;
+    background-color: black;
+    font-weight: 300;
+    text-decoration: solid;
+    text-transform: uppercase;
+    padding: 13px 30px;
+    /*transition: 0.2 ease;*/
+    transition: 0.3s;
+    margin-top: 50px;
+    margin-left: 25px;
+    border: none;
+}
+
+#home button:hover {
+    background-color: firebrick;
+    color: white;
+}
+
+#home p {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#home h1 {
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+/*Products*/
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img {
+    transition: 0.3s all;
+    width: 170px;
+    height: 220px;
+}
+
+.product:hover img {
+    opacity: 0.7;
+}
+
+.product .buy-btn {
+    background-color: cyan;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+
+/* MIMI */
+
+/* ------------------------------------------------------
+   Footer
+------------------------------------------------------ */
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #34a5ab;
+    margin: 80px 0px 0px 0px;
+}
+
+.footer .col-f h4 {
+    padding: 20px 0px 5px 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.footer li {
+    margin-top: 5px;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: white
+}
+
+.footer hr {
+    color: white;
+    border-bottom: 2px solid;
+    margin-top: -5px;
+}
+
+.footer .col-f ul {
+    list-style-type: none;
+}
+
+.footer p {
+    color: white;
+    padding: 0px 0px 30px 0px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+@media only screen and (min-width: 576px) {
+    .footer .col-f {
+        width: 100%;
+    }
+
+    .footer .col-f {
+        padding: 30px 0px 5px 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 880px) {
+    .footer .col-f {
+        margin-right: -90px;
+    }
+
+    .footer .col-f ul li {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 880px) and (max-width: 940px) {
+    .footer .col-f {
+        margin-right: -80px;
+    }
+
+    .footer .col-f ul li {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .footer .col-f {
+        width: 255px;
+        height: auto;
+        float: left;
+        box-sizing: border-box;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .footer .col-f {
+        padding: 30px 0px 5px 0px;
+        margin-right: -30px;
+    }
+
+    .footer .col ul li {
+        font-size: 12px;
+        padding: 5px 0px 5px 50px;
+    }
+
+    .logo-easypay {
+        width: 40%;
+        margin: 0px 0px 0px 40px;
+    }
+
+    .logo-fexopay {
+        width: 80%;
+        margin: 10px 0px 0px -20px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .footer .col-f {
+        width: 600px;
+        height: auto;
+        float: left;
+        box-sizing: border-box;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .footer .col-f {
+        padding: 30px 0px 5px 0px;
+    }
+
+    .footer .col ul li {
+        font-size: 12px;
+        padding: 5px 0px 5px 50px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .contain {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer .col-f {
+        width: 400px;
+        padding: 30px 20px 20px 20px;
+    }
+
+    .footer .col-f ul li {
+        font-size: 16px;
+    }
+
+}
+
+.cover-img1 {
+    width: 70%;
+    height: 80%;
+    margin-top: 80px;
+}
+
+.title-books {
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+a {
+    color: #34a5ab;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #34a5ab;
+    text-decoration: underline;
+}
+
+.title-info {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.a-hover {
+    color: #34a5ab;
+}
+
+.button_add {
+    background-color: #f8b32e;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px rgba(68, 62, 62, 0.09);
+    z-index: 3 !important;
+}
+
+.button_add a {
+    color: white;
+}
+
+.icon-fav {
+    width: 15px;
+}
+
+hr {
+    margin: 80px 0px 40px 0px;
+}
+
+
+
+
+.button-container .form-control {
+    max-width: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.cart-qty-plus,
+.cart-qty-minus {
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.cart-qty-plus:hover,
+.cart-qty-minus:hover {
+    background-color: #f8b32e;
+    border-color: #f8b32e;
+    color: #fff;
+}
+
+.cover-img2 {
+    width: 85%;
+    height: 80%;
+    margin-top: 50px;
+}
